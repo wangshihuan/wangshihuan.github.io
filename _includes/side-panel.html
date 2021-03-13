@@ -3,7 +3,7 @@
 
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
-		<a href="/" title="前往 {{ site.title }} 的主页" class="blog-button"><img src="/images/avatar.jpg" width="80" alt="{{ site.title }} logo" class="panel-cover__logo logo" /></a>
+		<a href="/" title="前往 {{ site.title }} 的主页" class="blog-button"><img src="/images/avatar.jpg" alt="{{ site.title }} logo" /></a>
         <!-- 头像效果-start
         <div class="ih-item circle effect right_to_left">            
             <a href="/#blog" title="前往 {{ site.title }} 的主页" class="blog-button">
@@ -25,7 +25,7 @@
             </a>
         </div>
         头像效果-end -->
-        <h1 class="panel-cover__title panel-title"><a href="/#blog" title="link to homepage for {{ site.title }}" class="blog-button">{{ site.title }}</a></h1>
+        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage for {{ site.title }}" class="blog-button">{{ site.title }}</a></h1>
         {% if site.subtitle %}
         <span class="panel-cover__subtitle panel-subtitle">{{site.subtitle}}</span>
         {% endif %}
@@ -38,18 +38,18 @@
         {% endif %}
         
 
-        <div class="navigation-wrapper">
+        <!--<div class="navigation-wrapper">
           <div>
             <nav class="cover-navigation cover-navigation--primary">
               <ul class="navigation">
-                <li class="navigation__item"><a href="/#blog" title="{{site.blog_button.description}}" class="blog-button">{{site.blog_button.title}}</a></li>
+                <li class="navigation__item"><a href="/" title="{{site.blog_button.description}}" class="blog-button">{{site.blog_button.title}}</a></li>
                 {% for item in site.nav %}
                   <li class="navigation__item"><a href="{{item.url}}" title="{{item.description}}">{{item.title}}</a></li>
                 {% endfor %}
               </ul>
             </nav>
           </div>          
-        </div>
+        </div>-->
 
 
         </div>
