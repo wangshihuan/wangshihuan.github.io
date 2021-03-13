@@ -3,7 +3,7 @@
 
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
-		<a href="/" title="前往 {{ site.title }} 的主页" class="blog-button"><img src="/images/avatar.jpg" alt="{{ site.title }} logo" /></a>
+		<a class="blog-button"><img src="/images/avatar.jpg" width="80" alt="{{ site.title }} logo" class="panel-cover__logo logo" /></a>
         <!-- 头像效果-start
         <div class="ih-item circle effect right_to_left">            
             <a href="/#blog" title="前往 {{ site.title }} 的主页" class="blog-button">
@@ -25,7 +25,7 @@
             </a>
         </div>
         头像效果-end -->
-        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage for {{ site.title }}" class="blog-button">{{ site.title }}</a></h1>
+        <h1 class="panel-cover__title panel-title"><a class="blog-button">{{ site.title }}</a></h1>
         {% if site.subtitle %}
         <span class="panel-cover__subtitle panel-subtitle">{{site.subtitle}}</span>
         {% endif %}
