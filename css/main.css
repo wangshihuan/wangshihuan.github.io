@@ -511,14 +511,13 @@ img::-moz-selection {
   .panel-title {
 	font-family: 'Old English Text MT', "Engravers' Old English BT", 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
     margin: 0 0 5px 0;
-    margin-top: 20px;
-    font-size: 1.8em;
-    letter-spacing: 4px;
+    /*margin-top: 20px;*/
+    font-size: 2.5em;
     color: #FFF; }
 
   .panel-subtitle {
     font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-    font-size: 0.6em;
+    font-size: 1.2em;
     font-weight: lighter;
     letter-spacing: 3px;
     color: #CCCCCC;
@@ -1098,11 +1097,11 @@ input[type="tel"]:-ms-input-placeholder {
     width: 128px; }
 
   .panel-title {
-    font-size: 1em; 
+    font-size: 2em; 
   }
 
   .panel-subtitle {
-    font-size: 0.6em; }
+    font-size: 1em; }
 
   .panel-cover__description {
     margin: 0 10px;
@@ -1206,10 +1205,11 @@ input[type="tel"]:-ms-input-placeholder {
   }
  .panel-title {
     margin-bottom: .1em;
+	font-size: 1.5em;
   }
 
   .panel-subtitle {
-    font-size: .6em; 
+    font-size: 0.9em; 
   }
  }
 
