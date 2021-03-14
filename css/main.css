@@ -1205,13 +1205,13 @@ input[type="tel"]:-ms-input-placeholder {
   }
  .panel-title {
     margin-bottom: .1em;
-	font-size: 1.5em;
+	font-size: 1.8em;
   }
 
   .panel-subtitle {
     font-size: 0.9em; 
   }
- }
+}
 
 
 /*头像效果-start*/
