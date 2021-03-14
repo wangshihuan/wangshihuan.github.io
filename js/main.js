@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
   /*$('a.blog-button').click(function() {
     // If already in blog, return early without animate overlay panel again.
     if (location.hash && location.hash == "#blog") return;
@@ -13,9 +12,7 @@ $(document).ready(function() {
       $('.panel-cover').css('max-width',currentWidth);
       $('.panel-cover').animate({'max-width': '320px', 'width': '22%'}, 400, swing = 'swing', function() {} );
     }
-
-    
-  }*/);
+  });*/
 
   if (window.location.hash && window.location.hash == "#blog") {
     $('.panel-cover').addClass('panel-cover--collapsed');
@@ -29,5 +26,40 @@ $(document).ready(function() {
   $('.btn-mobile-menu__icon').click(function() {
     // 导航按钮被点击
     // this.style.backgroundColor = '#fff'; 设置颜色后会自动消失
-  });  
+  });
+  
+  $(".iUp").each(function (i, e) {
+    iUp.up(e);
+  });
+  
 });
+
+var iUp = (function () {
+	var t = 0,
+		d = 150,
+		clean = function () {
+			t = 0;
+		},
+		up = function (e) {
+			setTimeout(function () {
+				$(e).addClass("up")
+			}, t);
+			t += d;
+		},
+		down = function (e) {
+			$(e).removeClass("up");
+		},
+		toggle = function (e) {
+			setTimeout(function () {
+				$(e).toggleClass("up")
+			}, t);
+			t += d;
+		};
+	return {
+		clean: clean,
+		up: up,
+		down: down,
+		toggle: toggle
+	}
+})();
+
