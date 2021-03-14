@@ -430,10 +430,11 @@ img::-moz-selection {
   }
 
   .avatar,
+
   .logo {
     border-radius: 50%;
     border: 3px solid #FFF;
-    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5), 0px 2px 20px 3px rgba(0, 0, 0, 0.25);
   }
 
   hr {
@@ -509,6 +510,7 @@ img::-moz-selection {
     vertical-align: middle; }
 
   .panel-title {
+	font-family: 'Old English Text MT', "Engravers' Old English BT", 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
     margin: 0 0 5px 0;
     margin-top: 20px;
     font-size: 1.8em;
@@ -1094,7 +1096,7 @@ input[type="tel"]:-ms-input-placeholder {
 }
 @media all and (max-width: 1300px) {
   .panel-cover__logo {
-    width: 70px; }
+    width: 128px; }
 
   .panel-title {
     font-size: 1em; 
@@ -1153,7 +1155,7 @@ input[type="tel"]:-ms-input-placeholder {
     padding: 70px 0 30px 0; 
   }
   .panel-cover.panel-cover--collapsed .panel-cover__logo {
-    width: 60px;
+    width: 128px;
     border-width: 2px; 
   }
   .panel-cover.panel-cover--collapsed .panel-cover__description {
