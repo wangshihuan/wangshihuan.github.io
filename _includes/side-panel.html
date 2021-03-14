@@ -2,18 +2,18 @@
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
-    <div class="panel-main__content iUp">
+    <div class="panel-main__content">
 		<a class="blog-button"><img src="/images/avatar.jpg" width="80" alt="{{ site.title }} logo" class="panel-cover__logo logo" /></a>
-        <h1 class="panel-cover__title panel-title"><a class="blog-button">{{ site.title }}</a></h1>
+        <h1 class="panel-cover__title panel-title iUp"><a class="blog-button">{{ site.title }}</a></h1>
         {% if site.subtitle %}
-        <span class="panel-cover__subtitle panel-subtitle">{{site.subtitle}}</span>
+        <span class="panel-cover__subtitle panel-subtitle iUp">{{site.subtitle}}</span>
         {% endif %}
-        <hr class="panel-cover__divider" />
-		<span class="panel-cover__subtitle">{{ site.description }}</span>
-        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        <hr class="panel-cover__divider iUp" />
+		<span class="panel-cover__subtitle iUp">{{ site.description }}</span>
+        <hr class="panel-cover__divider panel-cover__divider--secondary iUp" />
         
         {% if site.welcome_message %}
-        <p class="panel-cover__description">{{ site.welcome_message }}</p>
+        <p class="panel-cover__description iUp">{{ site.welcome_message }}</p>
         {% endif %}
         
         <!--<div class="navigation-wrapper">
