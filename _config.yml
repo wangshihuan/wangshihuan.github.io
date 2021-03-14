@@ -27,7 +27,6 @@ social:
     # twitter: 
     mail: wshlay@gmail.com
 
-
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 # baidu:
@@ -48,8 +47,8 @@ social:
 #
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
 
-
 permalink: /:year/:month/:title/
+
 # Format
 highlighter: rouge
 
@@ -60,14 +59,14 @@ cover_color: clear
 
 # The blog button should not be removed.
 blog_button:
-    title: Main
+    title: Home
 
 # Navigation buttons in the front page.s
 nav:
-    #- {title: 所有文章, description: archive, url: '/archive'}   
-    #- {title: 标签, description: tags, url: '/tags'}      
-    #- {title: 技术支持, description: support, url: '/support'}      
-    #- {title: 关于我, description: about, url: '/about'}   
+    - {title: Archives, description: archive, url: '/archive'}   
+    #- {title: Tags, description: tags, url: '/tags'}      
+    #- {title: Support, description: support, url: '/support'}      
+    - {title: About, description: about, url: '/about'}   
     
 
 # Pagination
