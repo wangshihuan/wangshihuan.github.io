@@ -3,13 +3,13 @@
 
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
-		<a class="blog-button"><img src="/images/avatar.jpg" width="80" alt="{{ site.title }} logo" class="panel-cover__logo logo" /></a>
+		<a class="blog-button"><img src="/images/avatar.jpg" width="80" alt="{{ site.title }} logo" class="panel-cover__logo logo iUp" /></a>
         <h1 class="panel-cover__title panel-title iUp"><a class="blog-button">{{ site.title }}</a></h1>
         {% if site.subtitle %}
-        <span class="panel-cover__subtitle panel-subtitle iUp">{{site.subtitle}}</span>
+        <p class="panel-cover__subtitle panel-subtitle iUp">{{site.subtitle}}</p>
         {% endif %}
         <hr class="panel-cover__divider iUp" />
-		<span class="panel-cover__subtitle iUp">{{ site.description }}</span>
+		<p class="panel-cover__subtitle iUp">{{ site.description }}</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary iUp" />
         
         {% if site.welcome_message %}
