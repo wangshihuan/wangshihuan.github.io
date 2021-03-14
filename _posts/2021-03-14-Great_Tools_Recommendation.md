@@ -10,12 +10,12 @@ tags: tools
 ### Online tools(Web)
 
 ## Documents
-[Smallpdf - PDF to PPT Converter](https://smallpdf.com/pdf-to-ppt)  
-[Diffchecker - compare text differences between two text files](https://www.diffchecker.com/)  
+[Smallpdf - doc format converter](https://smallpdf.com/pdf-to-ppt)  
+[Diffchecker - text comparison](https://www.diffchecker.com/)  
 ...
   
 ## Images
-[TinyPNG – PNG and JPEG compression](https://tinypng.com/)  
+[TinyPNG – image compression](https://tinypng.com/)  
 [Online Image Сompressor](https://imagecompressor.com/)  
 ...
 
