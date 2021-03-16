@@ -35,5 +35,13 @@ tags: tools
 >* MobaXterm
 >* ...
 
+### Chrome Extensions
 
+>* Adblock
+>* Violentmonkey
+>* Octotree - GitHub code tree
+>* Distill Web Monitor
+>* SessionBox
+>* Momentum
+>* ...
 
