@@ -5,10 +5,9 @@ date: 2021-03-19
 tags: interview  MySQL
 ---
 
-##Disclaimer
+## Disclaimer
 This archive is the public resource collected and collated from the Internet for studying purpose.  
 We respect copyright owners. Please contact us in case of any infringement.  
-
 
 ## 索引是什么
 MySQL官方对索引的定义为：索引(Index)是帮助MySQL高校获取数据的数据结构。 
