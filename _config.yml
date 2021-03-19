@@ -64,7 +64,7 @@ blog_button:
 # Navigation buttons in the front page.s
 nav:
     - {title: Archives, description: Archives, url: '/archive'}
-    #- {title: Tags, description: Tags, url: '/tags'}
+    - {title: Tags, description: Tags, url: '/tags'}
     #- {title: Support, description: Support, url: '/support'}
     - {title: About, description: About, url: '/about'}
 
