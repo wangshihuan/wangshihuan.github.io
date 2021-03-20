@@ -10,7 +10,7 @@ This archive is the public resource collected and collated from the Internet for
 We respect copyright owners. Please contact us in case of any infringement.  
 
 ## 索引是什么
-MySQL官方对索引的定义为：索引(Index)是帮助MySQL高校获取数据的数据结构。 
+MySQL官方对索引的定义为：索引(Index)是帮助MySQL高效获取数据的数据结构。 
 
 可以得到索引的本质：索引是数据结构，索引的目的是提高查询效率，可以类比英语新华字典，如果我们要查询MySQL这个单词，首先我们需要在目录（索引）定位到M，然后在定位到y，以此类推找到SQL。 
 
@@ -73,7 +73,6 @@ BLOB和TEXT类型，必须指定length。
 ## 哪些情况需要建索引
 
 - 主键自动建立唯一索引
-
 - 频繁作为查询的条件的字段应该创建索引
 - 查询中与其他表关联的字段，外键关系建立索引
 - 频繁更新的字段不适合创建索引：因为每次更新不单单是更新了记录还会更新索引，加重IO负担
@@ -1480,9 +1479,9 @@ Read View主要是用来做`可见性`判断的, 即当我们`某个事务`执�
     - **客户端代理：** **分片逻辑在应用端，封装在jar包中，通过修改或者封装JDBC层来实现。** 当当网的 **Sharding-JDBC** 、阿里的TDDL是两种比较常用的实现。
     - **中间件代理：** **在应用和数据中间加了一个代理层。分片逻辑统一维护在中间件服务中。** 我们现在谈的 **Mycat** 、360的Atlas、网易的DDB等等都是这种架构的实现。
     
-### MySQL数据库cpu飙升到500\%的话他怎么处理？
+### MySQL数据库cpu飙升到500%的话他怎么处理？
 
-当 cpu 飙升到 500\%时，先用操作系统命令 top 命令观察是不是 mysqld 占用导致的，如果不是，找出占用高的进程，并进行相关处理。
+当 cpu 飙升到 500%时，先用操作系统命令 top 命令观察是不是 mysqld 占用导致的，如果不是，找出占用高的进程，并进行相关处理。
 
 如果是 mysqld 造成的， show processlist，看看里面跑的 session 情况，是不是有消耗资源的 sql 在运行。找出消耗高的 sql，看看执行计划是否准确， index 是否缺失，或者实在是数据量太大造成。
 
