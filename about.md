@@ -12,6 +12,6 @@ dalao.honors = honors4Fun;
 String[] skills = { "Information Technology", "Bonus Hunting" };
 dalao.skills = skills;
 dalao.website = "http://shihuan.wang/";
-dalao.emailAddress = "wshlay@gmail.com";
+dalao.emailAddress = "mason@shihuan.wang";
 ```
 
