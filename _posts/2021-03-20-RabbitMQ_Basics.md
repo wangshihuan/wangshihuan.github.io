@@ -2,7 +2,7 @@
 layout: post
 title: RabbitMQ Basics
 date: 2021-03-20
-tags: interview  RabbitMQ
+tags: interview  MQ
 ---
 
 ## Disclaimer
