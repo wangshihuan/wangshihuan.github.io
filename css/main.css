@@ -385,7 +385,7 @@ img::-moz-selection {
     position: relative;
     display: inline-block;
     padding: 8px 18px 9px 18px;
-    background: #BF1827;
+    background: #1874CD;
     border-radius: 3px;
     text-align: center;
     color: #FFF; }
@@ -758,7 +758,7 @@ img::-moz-selection {
     padding: 5px 5px 5px 5px;
     font-size: .6em;
     text-shadow: none;
-    color: #BF1827;
+    color: #1874CD;
   }
   .navigation__item {
     display: inline-block;
